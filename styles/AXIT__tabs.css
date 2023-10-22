@@ -140,6 +140,9 @@
     margin-top: 27px;
     padding-left: 85px;
 }
+.box-left__download:hover{
+    background-color: #AB4949;
+}
 .box-right{
     display: inline-block;
     margin-left: 26px;
