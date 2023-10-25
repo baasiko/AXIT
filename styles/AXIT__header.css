@@ -1,0 +1,44 @@
+.header{
+    width: 100%;
+    background-color: black;
+}
+.axit-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    width: 1170px;
+    height: 75px;
+}
+.axit-header__logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 183.099px;
+    height: 74.854px;
+}
+.axit-header__links{
+    display: flex;
+    width: 570px;
+    height: 75px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.links__button{
+    display: flex;
+    height: 75px;
+    width: 114px;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    
+}

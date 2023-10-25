@@ -1,4 +1,4 @@
-.cont{
+.comments-container{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -45,7 +45,7 @@
     justify-content: space-around;
     align-items: flex-start;
 }
-.man{
+.customers__man{
     width: 70px;
     height: 70px;
     flex-shrink: 0;
@@ -55,7 +55,7 @@
     flex-direction: column;
     justify-content: space-around;
 }
-.name{
+.customers-name__name{
     display: flex;
     width: 269px;
     height: 54px;
@@ -70,7 +70,7 @@
     line-height: normal;
     text-transform: capitalize;
 }
-.post{
+.customers-name__post{
     width: 270px;
     color: #000;
     font-family: 'Raleway', sans-serif;

@@ -1,0 +1,32 @@
+.footer{
+    width: 100%;
+    background-color: black;
+}
+.footer__background{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    width: 1170px;
+    height: 164px;
+}
+.footer-background__ikons{
+    display: flex;
+    width: 670px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 40px;
+}
+.footer-background__copyright{
+    width: 1169px;
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: normal;
+}
