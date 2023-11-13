@@ -78,3 +78,20 @@
     color: white;
     border: 1px solid #AB4949;
 }
+@media (max-width:1170px) {
+    .design-background__download{
+        width: 320px;
+    }
+}
+
+@media (max-width: 600px){
+    .design-background__download{
+        width: 280px;
+    }
+}
+
+@media (max-width: 320px){
+    .design-background__download{
+        width: 230px;
+    }
+}

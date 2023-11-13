@@ -1,28 +1,35 @@
 .tabs-header{
     width: 1170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 .tabs-header__tab1{
-    width: 203px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 205px;
     height: 40px;
     border-radius: 5px 5px 0px 0px;
     border-left: 1px solid #C6CBCD;
     border-right: 1px solid #C6CBCD;
     border-top: 1px solid #C6CBCD;
     color: #333;
-    text-align: center;
     font-family: 'Open Sans';
     font-size: 14px;
     font-style: normal;
     font-weight: 100;
     line-height: 40px;
     text-transform: uppercase;
-    display: inline-block;
 }
 .tabs-header__tab2{
-    width: 184px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 192px;
     height: 40px;
     color: #333;
-    text-align: center;
     font-family: 'Open Sans';
     font-size: 14px;
     font-style: normal;
@@ -30,16 +37,15 @@
     line-height: 40px;
     text-transform: uppercase;
     border-bottom: 1px solid #C6CBCD;
-    margin: -5px;
-    display: inline-block;
 }
 .tabs-header__tab3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 184px;
     height: 40px;
     border-bottom: 1px solid #C6CBCD;
-    display: inline-block;
     color: #333;
-    text-align: center;
     font-family: 'Open Sans';
     font-size: 14px;
     font-style: normal;
@@ -48,14 +54,17 @@
     text-transform: uppercase;
 }
 .tabs-header__tab4{
-    width: 594px;
+    display: flex;
+    align-items: bottom;
+    justify-content: center;
+    width: 593px;
     height: 40px;
     border-bottom: 1px solid #C6CBCD;
-    display: inline-block;
-    vertical-align: bottom;
-    margin-left: -4px;
 }
 .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     border-left: 1px solid #C6CBCD;
     border-bottom: 1px solid #C6CBCD;
     border-right: 1px solid #C6CBCD;
@@ -63,7 +72,8 @@
     width: 1170px;
 }
 .box-left{
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     margin-left: 100px;
     vertical-align: top;
 }
@@ -82,6 +92,7 @@
     margin-bottom: 27px;
 }
 .box-left__paragraph{
+    display: flex;
     width: 570px;
     color: #000;
     font-family: 'Raleway';
@@ -112,8 +123,14 @@
 .box-left__download:hover{
     background-color: #AB4949;
 }
+.box-left__download:active{
+    background-color: #EC7979;
+    color: white;
+    border: 1px solid #EC7979;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+}
 .box-right{
-    display: inline-block;
+    display: flex;
     margin-left: 26px;
 }
 .box-right__statue{

@@ -10,27 +10,28 @@
     background-size: cover;
     background-attachment: scroll;
     align-items: center;
+    position: relative;
 }
-.banner__background{
+.banner-background{
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
 }
-.banner-background__section{
-    margin: 0 auto;
+.banner-background-section{
+    margin: 207px auto;
     width: 1170px;
-    height: 1026px;
+    height: 558px;
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-evenly;
 }
-.banner-background-section__overview{
+.banner-background-section-overview{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
     width: 670px;
+    margin-top: 100px;
 }
 .banner-background-section-overview__logo{
     display: flex;
@@ -41,6 +42,10 @@
     font-family: 'Raleway', sans-serif;
     color: white;
     margin-bottom: 72px;
+}
+.banner-background-section-overview-logo__selection{
+    color: #EC7979;
+    font-size: 55px
 }
 .banner-background-section-overview__heading{
     display: flex;
@@ -93,14 +98,14 @@
 }
 .banner-background-section-overview__button:hover{
     color: #EC7979;
-    border: 1px solid #EC7979;
+    border: 1px solid #EC7979
 }
 .banner-background-section-overview__button:active{
     background-color: #AB4949;
     color: white;
     border: 1px solid #AB4949;
 }
-.banner-background-section-overview__registration{
+.banner-background-section-overview-registration{
     display: flex;
     align-items: center;
     width: 470px;
@@ -126,35 +131,21 @@
     line-height: normal;
     text-transform: uppercase;
 }
-.banner-background-section-overview-registration__place{
+.banner-background-section-overview-registration-title__selection{
+    color: #EC7979;
+}
+.banner-background-section-overview-registration-place{
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
     margin-top: -15px
 }
-.banner-background-section-overview-registration-place-item{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    height: 70px;
-    width: 370px;
-    border: none;
-    color: #86878B;
-    border-bottom: .5px solid #BDBDBD;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    outline: none;
-}
 .banner-background-section-overview-registration__button{
     display: flex;
     width: 470px;
-    height: 70px;
-    margin-bottom: -30px;
+    height: 76px;
+    margin-bottom: -32px;
     border: #EC7979;
     align-self: flex-end;
     align-items: center;
@@ -170,5 +161,43 @@
     border-radius: 0 0 10px 10px;
 }
 .banner-background-section-overview-registration__button:hover{
+    color: white;
     background-color: #AB4949;
+    border: 1px solid #AB4949;
+}
+.banner-background-section-overview-registration__button:active{
+    background-color: #EC7979;
+    color: white;
+    border: 1px solid #EC7979;
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+}
+@media (max-width: 1187.2px){
+    .banner-background-section-overview-registration{
+        width: 398px;
+    }
+        .banner-background-section-overview-registration__button{
+            width: 398px;
+        }
+        .banner-background-section-overview-registration-place-item{
+            width: 298px;
+        }.banner-background-section-overview-registration__title{
+            display: flex;
+            width: 298px;
+            height: 90px;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .banner-background-section-overview-registration__title{
+            font-size: 18px;
+        }
+        .text-selection{
+            font-size: 18px;
+        }
+        .banner-background-section{
+            width: 90%;
+        }
+}
+@media (max-width: 1126.8px){
+
 }
